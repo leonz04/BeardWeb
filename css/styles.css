@@ -1,102 +1,113 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    box-sizing:  border-box;
-}
-body{
-    
-    width: 80%;
-    margin: 0 auto;
 }
 
-header{
+body {
+
+
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+
+}
+
+header {
     background-color: aquamarine;
     margin: 0 auto;
     width: 80%;
     height: 150px;
     display: flex;
-    margin: auto auto;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     position: fixed;
+    top: 0;
+    left: auto;
+
 }
 
 .logoHeader {
-    display:flex;
-    width:130px ;
+    margin:0 auto;
+    padding: 15px;
+    display: flex;
+    width: 130px;
     height: 130px;
 }
 
-header div{
+header .logoHead {
     display: flex;
     align-self: center;
-    margin: 30px;
+    padding: 30px;
 
-    
+
+
 }
 
-header div h1{
-      
+header div h1 {
+
     align-self: center;
     margin: 30px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2em;
-    
+
 
 }
 
-header .mainNav{
-    
-    display: flex;    
+header .mainNav {
+
+    display: flex;
     width: 50%;
-    justify-content: flex-end;        
-    
+    justify-content: flex-end;
+
 }
 
 
-nav ul {
+.mainNav ul {
     float: right;
     margin: 0 20px;
-    
-    
+
+
 }
 
-nav ul li{
+.mainNav ul li {
     list-style: none;
     float: left;
     margin: 0 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
     padding: 10px;
-    border: 5px solid rgb(0, 0, 0);
-    
+    border: 1px solid rgb(0, 0, 0);
+
 }
 
-.slide{
+.slide {
     margin: 20px auto;
-    margin-top: 170px;    
+    margin-top: 170px;
     width: 90%;
     height: 500px;
     background-image: url("/assets/banner-principal/img1.webp");
-    background-size:contain;
-    background-position:center;
-    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     background-color: aquamarine;
-    border: 5px solid  #962287;
+    border: 5px solid #962287;
 }
 
-.us{
-    
+.us {
+
     background-color: red;
 
     margin: 10px auto;
     width: 90%;
-    height: 500px;   
-    border:2px solid #962287;
-    
+    height: 500px;
+    border: 2px solid #962287;
+
 
 }
-.us_header{
+
+.us_header {
     margin: 0 auto;
     background-color: cadetblue;
     width: 100%;
@@ -105,92 +116,99 @@ nav ul li{
 
 }
 
-.us_header h2{
+.us_header h2 {
     margin: 0 auto;
     font-size: 3em;
     background-color: cadetblue;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.us_header p{
+.us_header p {
     margin: 10px auto;
     font-size: 1.5em;
     background-color: cadetblue;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
-.us_team{
+.us_team {
     display: flex;
+    height: 380px;
     justify-content: space-between;
 }
 
-.us_team article{
+.us_team article {
     background-color: aquamarine;
-    width:25%;
-    height: 380px;
     margin: 10px 25px;
     text-align: center;
 }
 
-.us_team article img{
-    margin: 10px auto;   
-    width:65%;        
+.us_team article img {
+    margin: 10px auto;
+    width: 80%;
     height: 50%;
     border-radius: 50%;
     object-fit: cover;
-   
+    transition: 300ms;
+    ;
+
 }
 
-.us_team article h3{
-    margin: 10x auto;
-    font-size: 1.7em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.us_team article img:hover {
+    transform: scale(1.15);
+
 }
 
-.us_team article h4{
-    margin: 10x auto;
-    font-size: 1.6em;
-    font-style:italic;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-}
-.us_team article p{
+.us_team article h3 {
     margin: 10x auto;
     font-size: 1.4em;
-    font-style:italic;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.us_team article a{
+.us_team article h4 {
     margin: 10x auto;
-    font-size: 1.6em;
-    font-style:italic;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-size: 1.3em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-.products{
-    
+.us_team article p {
+    margin: 10x auto;
+    font-size: 1.2em;
+    font-style: italic;
+
+}
+
+.us_team article a {
+    margin: 10x auto;
+    font-size: 1.2em;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.products {
+
     margin: 20px auto;
     width: 90%;
     height: 500px;
     background-color: aquamarine;
-    border: 5px solid  #962287;
+    border: 5px solid #962287;
 }
 
-.products h2{
+.products h2 {
     margin: 0 auto;
     background-color: red;
     width: 100%;
     height: 50px;
     text-align: center;
     font-size: 1.7em;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.products>p{
+.products>p {
     margin: 0 auto;
     background-color: cadetblue;
     width: 100%;
@@ -199,38 +217,233 @@ nav ul li{
     font-size: 1.4em;
 }
 
-.products_content{
+.products_content {
     display: flex;
-    margin: 10px auto;
+    margin: 0px auto;
     width: 90%;
     height: 380px;
     background-color: aquamarine;
     justify-content: space-between;
+
+}
+
+.products_content article {
+    background-color: red;
+    width: 25%;
+    height: 380px;
+    margin: 10px 25px;
+    text-align: center;
+
+}
+
+.products_content img {
+    margin: 10px auto;
+    width: 80%;
+    height: 60%;
+    border-radius: 10%;
+    object-fit: cover;
+    transition: 300ms;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    animation-name: cargaProducts;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1;
+    animation-direction: normal;
+}
+
+.products_content img:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 0.1px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.services {
+    margin: 20px auto;
+    width: 90%;
+    height: 500px;
+    background-color: aquamarine;
+    border: 5px solid #962287;
+
+}
+
+.services h2 {
+    margin: 0 auto;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.services>p {
+    margin: 0 auto;
+    background-color: cadetblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.services_content {
+    display: flex;
+    margin: 0px auto;
+    width: 90%;
+    height: 380px;
+    background-color: aquamarine;
+    justify-content: space-between;
+
+}
+.services article {
+    background-color: red;
+    width: 25%;
+    height: 380px;
+    margin: 10px 25px;
+    text-align: center;
+
+}
+.services img {
+    margin: 10px auto;
+    width: 80%;
+    height: 60%;
+    border-radius: 10%;
+    object-fit: cover;
+    transition: 300ms;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+   
+
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    background-color: darkgoldenrod;
+    height: 500px;
+}
+
+.contact {
+    display: block;
+    float: right;
+}
+
+.suscribe {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+}
+
+.suscribe h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    padding: 25px;
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+}
+.suscribe form{
+    padding: 15px;
+    display: flex;
+    background-color: rgb(237, 100, 212);
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+.location {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    background-color: darkorchid;    
+    justify-content: space-between;
     
+
 }
 
-.services{
+.location div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+}
+
+.location h2 {
+    width: 50%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    background-color: rgb(204, 194, 50);    
+    flex-direction: column;
+}
+
+.socialFoot{
+    float: right;
+}
+
+
+
+
+.location .map{
+    width: 300px;
+    height: 300;
+    
+    display: flex;
+    background-color: darkorchid;    
+    float: left;
+    flex-direction: column;
+}
+
+footer .auxNav {
+    background-color: palegoldenrod;
+    height: 100px;    
+    width: 100%;
+    
+
+}
+
+
+.socialNav ul {
+    float: right;
+    margin: 0 20px;
+
+
+}
+
+.auxNav ul li {
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+.copyright {
     display: block;
-    float:left;
-}
-.contact{
-    display: block;
-    float:left;
-}
-.suscribe{
-    display: block;
-    float:left;
-}
-.location{
-    display: block;
-    float:left;
+    float: left;
 }
 
-.copyright{
-    display: block;
-    float:left;
+@keyframes cargaProducts {
+    0% {
+        opacity: 0;
+
+    }
+
+    20% {
+        opacity: 0.33;
+
+    }
+
+    80% {
+        opacity: 0.66;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
 }
-
-
-
-
