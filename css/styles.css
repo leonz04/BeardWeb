@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:  border-box;
+}
+body{
+    
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: aquamarine;
+    margin: 0 auto;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    margin: auto auto;
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+}
+
+.logoHeader {
+    display:flex;
+    width:130px ;
+    height: 130px;
+}
+
+header div{
+    display: flex;
+    align-self: center;
+    margin: 30px;
+
+    
+}
+
+header div h1{
+      
+    align-self: center;
+    margin: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    
+
+}
+
+header .mainNav{
+    
+    display: flex;    
+    width: 50%;
+    justify-content: flex-end;        
+    
+}
+
+
+nav ul {
+    float: right;
+    margin: 0 20px;
+    
+    
+}
+
+nav ul li{
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    border: 5px solid rgb(0, 0, 0);
+    
+}
+
+.slide{
+    margin: 20px auto;
+    margin-top: 170px;    
+    width: 90%;
+    height: 500px;
+    background-image: url("/assets/banner-principal/img1.webp");
+    background-size:contain;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-color: aquamarine;
+    border: 5px solid  #962287;
+}
+
+.us{
+    
+    background-color: red;
+
+    margin: 10px auto;
+    width: 90%;
+    height: 500px;   
+    border:2px solid #962287;
+    
+
+}
+.us_header{
+    margin: 0 auto;
+    background-color: cadetblue;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+
+.us_header h2{
+    margin: 0 auto;
+    font-size: 3em;
+    background-color: cadetblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.us_header p{
+    margin: 10px auto;
+    font-size: 1.5em;
+    background-color: cadetblue;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.us_team{
+    display: flex;
+    justify-content: space-between;
+}
+
+.us_team article{
+    background-color: aquamarine;
+    width:25%;
+    height: 380px;
+    margin: 10px 25px;
+    text-align: center;
+}
+
+.us_team article img{
+    margin: 10px auto;   
+    width:65%;        
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+   
+}
+
+.us_team article h3{
+    margin: 10x auto;
+    font-size: 1.7em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.us_team article h4{
+    margin: 10x auto;
+    font-size: 1.6em;
+    font-style:italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.us_team article p{
+    margin: 10x auto;
+    font-size: 1.4em;
+    font-style:italic;
+
+}
+
+.us_team article a{
+    margin: 10x auto;
+    font-size: 1.6em;
+    font-style:italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.products{
+    
+    margin: 20px auto;
+    width: 90%;
+    height: 500px;
+    background-color: aquamarine;
+    border: 5px solid  #962287;
+}
+
+.products h2{
+    margin: 0 auto;
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.7em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.products>p{
+    margin: 0 auto;
+    background-color: cadetblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+.products_content{
+    display: flex;
+    margin: 10px auto;
+    width: 90%;
+    height: 380px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    
+}
+
+.services{
+    display: block;
+    float:left;
+}
+.contact{
+    display: block;
+    float:left;
+}
+.suscribe{
+    display: block;
+    float:left;
+}
+.location{
+    display: block;
+    float:left;
+}
+
+.copyright{
+    display: block;
+    float:left;
+}
+
+
+
+
